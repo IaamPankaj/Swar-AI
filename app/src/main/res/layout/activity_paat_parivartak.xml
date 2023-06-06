@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".PaatParivartak_Activity">
+
+
+    <TextView
+        android:id="@+id/text12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:gravity="center"
+        android:text="लेखस्वर"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/te"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text12"
+        android:gravity="center"
+        android:text="Text to Speech"
+        android:textColor="@color/white"
+        android:textStyle="italic" />
+
+    <LinearLayout
+        android:id="@+id/lin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/te"
+        android:layout_marginTop="80sp"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:orientation="horizontal">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/sourceLanguageChooseBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="English"
+            android:textAllCaps="false"
+            app:cornerRadius="10dp"
+            android:layout_weight="1"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:background="@drawable/transparent_bg"
+            android:src="@drawable/ic_baseline_arrow_forward_24"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/destinationLanguageChooseBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hindi"
+            android:textAllCaps="false"
+            app:cornerRadius="10dp"
+            android:layout_weight="1"/>
+
+
+
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/sourceLanguageEt"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_below="@id/lin"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="50sp"
+        android:layout_marginRight="20sp"
+        android:background="@drawable/round"
+        android:gravity="center"
+        android:hint="Place Your Content Here...."
+        android:paddingLeft="20sp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/translateBtn"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/sourceLanguageEt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Translate"
+        android:background="@drawable/round"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/destinationLanguageTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/translateBtn"
+        android:layout_marginTop="25dp"
+        android:text=""
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+</RelativeLayout>

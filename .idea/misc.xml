@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Pankaj/.gradle/caches/transforms-3/5d666d306352f7fdca8df50525096bc2/transformed/appcompat-1.5.1/res/layout/support_simple_spinner_dropdown_item.xml" value="0.1796875" />
+        <entry key="..\:/Users/Pankaj/AndroidStudioProjects/SwarAI/app/src/main/res/layout/activity_anuvad.xml" value="0.1796875" />
+        <entry key="..\:/Users/Pankaj/AndroidStudioProjects/SwarAI/app/src/main/res/layout/activity_gender.xml" value="0.1796875" />
+        <entry key="..\:/Users/Pankaj/AndroidStudioProjects/SwarAI/app/src/main/res/layout/activity_main.xml" value="0.1796875" />
+        <entry key="..\:/Users/Pankaj/AndroidStudioProjects/SwarAI/app/src/main/res/layout/activity_main_page.xml" value="0.17692307692307693" />
+        <entry key="..\:/Users/Pankaj/AndroidStudioProjects/SwarAI/app/src/main/res/layout/activity_noise_cancellation.xml" value="0.1796875" />
+        <entry key="..\:/Users/Pankaj/AndroidStudioProjects/SwarAI/app/src/main/res/layout/activity_paat_parivartak.xml" value="0.1796875" />
+        <entry key="..\:/Users/Pankaj/AndroidStudioProjects/SwarAI/app/src/main/res/layout/activity_registration_page.xml" value="0.1796875" />
+        <entry key="..\:/Users/Pankaj/AndroidStudioProjects/SwarAI/app/src/main/res/layout/activity_shrutlekh.xml" value="0.1796875" />
+        <entry key="..\:/Users/Pankaj/AndroidStudioProjects/SwarAI/app/src/main/res/layout/activity_speaker.xml" value="0.1796875" />
+        <entry key="..\:/Users/Pankaj/Downloads/SwarAI/app/src/main/res/drawable/bg_edittext.xml" value="0.1205" />
+        <entry key="..\:/Users/Pankaj/Downloads/SwarAI/app/src/main/res/drawable/ic_baseline_keyboard_voice_24.xml" value="0.1205" />
+        <entry key="..\:/Users/Pankaj/Downloads/SwarAI/app/src/main/res/drawable/register1.xml" value="0.1205" />
+        <entry key="..\:/Users/Pankaj/Downloads/SwarAI/app/src/main/res/drawable/ring.xml" value="0.1205" />
+        <entry key="..\:/Users/Pankaj/Downloads/SwarAI/app/src/main/res/drawable/round.xml" value="0.1205" />
+        <entry key="..\:/Users/Pankaj/Downloads/SwarAI/app/src/main/res/drawable/round_back_dark_blue5_15.xml" value="0.1205" />
+        <entry key="..\:/Users/Pankaj/Downloads/SwarAI/app/src/main/res/drawable/round_back_primary_15.xml" value="0.1205" />
+        <entry key="..\:/Users/Pankaj/Downloads/SwarAI/app/src/main/res/drawable/transparent_bg.xml" value="0.1205" />
+        <entry key="..\:/Users/Pankaj/Downloads/SwarAI/app/src/main/res/layout/activity_anuvad.xml" value="0.1796875" />
+        <entry key="..\:/Users/Pankaj/Downloads/SwarAI/app/src/main/res/layout/activity_gender.xml" value="0.1796875" />
+        <entry key="..\:/Users/Pankaj/Downloads/SwarAI/app/src/main/res/layout/activity_main.xml" value="0.18072289156626506" />
+        <entry key="..\:/Users/Pankaj/Downloads/SwarAI/app/src/main/res/layout/activity_main_page.xml" value="0.165625" />
+        <entry key="..\:/Users/Pankaj/Downloads/SwarAI/app/src/main/res/layout/activity_noise_cancellation.xml" value="0.1796875" />
+        <entry key="..\:/Users/Pankaj/Downloads/SwarAI/app/src/main/res/layout/activity_paat_parivartak.xml" value="0.1796875" />
+        <entry key="..\:/Users/Pankaj/Downloads/SwarAI/app/src/main/res/layout/activity_registration_page.xml" value="0.1796875" />
+        <entry key="..\:/Users/Pankaj/Downloads/SwarAI/app/src/main/res/layout/activity_shrutlekh.xml" value="0.1796875" />
+        <entry key="..\:/Users/Pankaj/Downloads/SwarAI/app/src/main/res/layout/spinner_item.xml" value="0.1796875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

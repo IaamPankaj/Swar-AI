@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    tools:context=".Anuvad_Activity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="अनुवाद"
+        android:textSize="40sp"
+        android:textStyle="italic"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:layout_marginTop="100dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Speech Translation"
+        android:textStyle="italic"
+        android:gravity="center"
+        android:textColor="@color/white"
+       />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/inputSelectLanguage"
+        android:layout_below="@id/dic"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Select Input Language"
+        android:textAllCaps="false"
+        android:background="@drawable/round"
+        app:cornerRadius="28dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginTop="70dp"
+       />
+
+    <ImageView
+        android:layout_width="40sp"
+        android:layout_height="40sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/ic_baseline_arrow_downward_24"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/outputSelectLanguage"
+        android:layout_below="@id/dic"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Select Output Language"
+        android:textAllCaps="false"
+        android:background="@drawable/round"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginTop="15dp"
+       />
+
+    <ImageView
+        android:id="@+id/mic"
+        android:layout_width="50dp"
+        android:layout_height="50sp"
+        android:layout_marginTop="20sp"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_baseline_keyboard_voice_24" />
+
+    <TextView
+        android:id="@+id/OutoutText"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:textColor="@color/white"
+        android:textStyle="italic"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:layout_marginLeft="30sp"
+        android:layout_marginRight="30sp"
+        android:textColorHint="@color/white"
+        android:layout_marginTop="18sp"/>
+
+
+
+</LinearLayout>

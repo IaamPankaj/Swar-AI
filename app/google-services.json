@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "697211040173",
+    "project_id": "swar-ai-54f4f",
+    "storage_bucket": "swar-ai-54f4f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:697211040173:android:ec44e321090e6443a87124",
+        "android_client_info": {
+          "package_name": "com.example.swarai"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "697211040173-1tth8i9h0pfm91qe6mcicr6b63agedfe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbkMltZ6JJ40OoJherpouIBTLyELZLD4o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "697211040173-1tth8i9h0pfm91qe6mcicr6b63agedfe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
